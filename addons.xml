@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.prtv" name="PRTV Repository" version="1.0.0" provider-name="PRTV">
+    <extension point="xbmc.addon.repository" name="PRTV Repo">
+        <info compressed="false">https://prtv25.github.io/kodi-repo-prtv/addons.xml</info>
+        <checksum>https://prtv25.github.io/kodi-repo-prtv/addons.xml.md5</checksum>
+        <datadir zip="true">https://prtv25.github.io/kodi-repo-prtv/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>PRTV Repositorio</summary>
+        <description>Repositório oficial PRTV, com TV, filmes e séries</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.prtv" name="PRTV" version="1.0.0" provider-name="PRTV">
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Addon PRTV</summary>
+        <description>TV, filmes e séries. Todos os conteúdos são retirados da internet</description>
+        <platform>all</platform>
+    </extension>
+</addon>
