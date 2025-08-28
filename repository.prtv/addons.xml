@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.prtv" name="PRTV Repository" version="1.0.0" provider-name="prtv25">
+    <extension point="xbmc.addon.repository" name="PRTV Repository">
+        <info compressed="false">https://prtv25.github.io/kodi-repo-prtv/addons.xml</info>
+        <checksum>https://prtv25.github.io/kodi-repo-prtv/addons.xml.md5</checksum>
+        <datadir zip="true">https://prtv25.github.io/kodi-repo-prtv/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>PRTV Add-ons Repository</summary>
+        <description>Repositório oficial PRTV</description>
+        <platform>all</platform>
+    </extension>
+</addon>
